@@ -1,0 +1,55 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #006837;
+    
+}
+
+div {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    color: #446745;
+    background-color: #f9c582;
+
+}
+
+@media (min-width: 520px) {
+    h1 {
+        font-size: 36px;
+    }
+    div {
+        max-width: 520px;
+    }
+
+    input {
+        color: #98a991;
+    }
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    max-width: 480px;
+    height: 64px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 21px;
+    width: 120px;
+    height: 120px;
+    background-color: #f9c582;
+    color: #006837;
+    border-radius: 50%;
+
+}
+
+body {
+    background-color: #f2f2f2;
+}
